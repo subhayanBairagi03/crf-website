@@ -1,5 +1,5 @@
 import HeroSection from '@/components/sections/HeroSection'
-import AboutSection from '@/components/sections/AboutSection'
+import PublishWithUs from '@/components/sections/PublishWithUs'
 import FounderMessage from '@/components/sections/FounderMessage'
 import AreasOfWork from '@/components/sections/AreasOfWork'
 import ThematicFocus from '@/components/sections/ThematicFocus'
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <AboutSection />
+      <PublishWithUs />
       <FounderMessage />
       <AreasOfWork />
       <ThematicFocus />
