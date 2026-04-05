@@ -13,13 +13,15 @@ const benefits = [
 ]
 
 export default function PublishWithUs() {
-  const ref = useScrollReveal()
+  const headingRef = useScrollReveal()
+  const gridRef = useScrollReveal()
+  const contactRef = useScrollReveal()
 
   return (
     <section className="py-24 bg-surface">
-      <div ref={ref} className="reveal container mx-auto px-4 sm:px-8">
+      <div className="container mx-auto px-4 sm:px-8">
         {/* Heading */}
-        <div className="text-center mb-12">
+        <div ref={headingRef} className="reveal text-center mb-12">
           <h2 className="font-headline text-4xl sm:text-5xl font-bold text-[#001757] inline-block relative">
             Publish with us!
             <span className="block h-1 w-24 bg-[#f6be3c] mx-auto mt-3 rounded-full" />
@@ -27,7 +29,10 @@ export default function PublishWithUs() {
         </div>
 
         {/* Benefits grid */}
-        <div className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto mb-12">
+        <div
+          ref={gridRef}
+          className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto mb-12"
+        >
           {benefits.map((item) => (
             <div
               key={item.text}
@@ -42,7 +47,7 @@ export default function PublishWithUs() {
         </div>
 
         {/* Contact strip */}
-        <div className="bg-[#001757] text-white rounded-xl px-6 py-5 max-w-3xl mx-auto text-center space-y-2">
+        <div ref={contactRef} className="reveal bg-[#001757] text-white rounded-xl px-6 py-5 max-w-3xl mx-auto text-center space-y-2">
           <p className="font-label text-sm sm:text-base">
             <span className="font-bold">Contact:</span> 8017957018
             <span className="mx-3 opacity-50">|</span>
