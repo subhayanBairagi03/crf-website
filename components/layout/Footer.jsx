@@ -3,12 +3,23 @@ import Link from 'next/link'
 
 const quickLinks = [
   { label: 'About CRF', href: '/about' },
-  { label: 'Research', href: '/research' },
-  { label: 'Events', href: '/archives' },
+  { label: 'Research & Publication', href: '/research' },
+  { label: 'Events & Archives', href: '/archives' },
   { label: 'Contact', href: '/#footer' },
 ]
-const programs = ['Creative Writing', 'Research Methodology', 'Academic Publishing', 'Cultural Studies']
-const legal = ['Terms of Service', 'Privacy Policy', 'Ethics Charter']
+
+const programs = [
+  { label: 'Creative Writing', href: '/research' },
+  { label: 'Research Methodology', href: '/research' },
+  { label: 'Academic Publishing', href: '/research' },
+  { label: 'Cultural Studies', href: '/research' },
+]
+
+const legal = [
+  { label: 'Terms of Service', href: 'mailto:convergenceofknowledge17@gmail.com?subject=Terms%20of%20Service%20Inquiry' },
+  { label: 'Privacy Policy', href: 'mailto:convergenceofknowledge17@gmail.com?subject=Privacy%20Policy%20Inquiry' },
+  { label: 'Ethics Charter', href: 'mailto:convergenceofknowledge17@gmail.com?subject=Ethics%20Charter%20Inquiry' },
+]
 
 export default function Footer() {
   return (
@@ -60,8 +71,8 @@ export default function Footer() {
           <h5 className="text-[#C9960C] font-semibold mb-6 uppercase tracking-widest text-xs">Programs</h5>
           <ul className="space-y-4 text-sm font-label">
             {programs.map((p) => (
-              <li key={p}>
-                <a className="hover:text-white transition-colors" href="#">{p}</a>
+              <li key={p.label}>
+                <Link className="hover:text-white transition-colors" href={p.href}>{p.label}</Link>
               </li>
             ))}
           </ul>
@@ -83,15 +94,21 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-[10px] uppercase tracking-widest">
-          © 2026 Convergence Research Foundation. All rights reserved.
-        </p>
-        <div className="flex flex-wrap justify-center gap-6 text-[10px] uppercase tracking-widest">
-          {legal.map((item) => (
-            <a key={item} className="hover:text-white transition-colors" href="#">{item}</a>
-          ))}
+      <div className="max-w-7xl mx-auto px-6 sm:px-12 pt-8 border-t border-white/5 space-y-4">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-[10px] uppercase tracking-widest">
+            © 2026 Convergence Research Foundation. All rights reserved.
+          </p>
+          <div className="flex flex-wrap justify-center gap-6 text-[10px] uppercase tracking-widest">
+            {legal.map((item) => (
+              <a key={item.label} className="hover:text-white transition-colors" href={item.href}>{item.label}</a>
+            ))}
+          </div>
         </div>
+        <p className="text-center text-[10px] text-slate-500 tracking-widest uppercase pb-2">
+          Developed and Designed by{' '}
+          <span className="text-[#C9960C] font-semibold">Subhayan Bairagi</span>
+        </p>
       </div>
     </footer>
   )
