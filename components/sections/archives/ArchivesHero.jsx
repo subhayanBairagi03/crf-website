@@ -1,6 +1,6 @@
 export default function ArchivesHero() {
   return (
-    <section className="relative bg-primary-container pt-24 pb-32 px-8 overflow-hidden">
+    <section className="relative bg-primary-container pt-24 pb-32 px-4 sm:px-6 md:px-8 overflow-hidden">
       {/* Decorative blobs */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute -top-24 -left-24 w-96 h-96 bg-tertiary-fixed-dim rounded-full blur-3xl" />
@@ -15,10 +15,10 @@ export default function ArchivesHero() {
           <span className="text-white">Archives</span>
         </nav>
 
-        <h1 className="font-headline text-6xl md:text-7xl text-white mb-6 tracking-tight leading-tight max-w-3xl">
+        <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-6 tracking-tight leading-tight max-w-3xl">
           Archives
         </h1>
-        <p className="text-xl md:text-2xl text-white/80 max-w-2xl leading-relaxed font-light">
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/80 max-w-2xl leading-relaxed font-light">
           A record of our events, publications, and milestones — stories of convergence in action.
         </p>
       </div>

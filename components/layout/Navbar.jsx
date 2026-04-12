@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
-  { label: 'Research', href: '/research' },
+  { label: 'Research & Publication', href: '/research' },
   { label: 'Events', href: '/archives' },
   { label: 'Contact', href: '/#footer' },
 ]
@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 w-full z-50 bg-[#1B2E6E] shadow-lg border-b-2 border-[#C9960C]">
-      <div className="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+      <div className="flex justify-between items-center px-4 sm:px-8 py-4 max-w-7xl mx-auto">
         {/* Brand */}
         <div className="flex items-center gap-3">
           <div className="logo-float shrink-0">
@@ -73,7 +73,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="lg:hidden bg-[#1B2E6E] border-t border-[#C9960C]/30 px-8 py-6 flex flex-col gap-6">
+        <div className="lg:hidden bg-[#1B2E6E] border-t border-[#C9960C]/30 px-4 py-4 sm:px-8 sm:py-6 flex flex-col gap-6">
           {navLinks.map((link) => (
             <Link
               key={link.label}

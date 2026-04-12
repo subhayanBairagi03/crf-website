@@ -1,8 +1,8 @@
 import ResearchHero from '@/components/sections/research/ResearchHero'
-import ResearchAssistance from '@/components/sections/research/ResearchAssistance'
-import PublicationAssistance from '@/components/sections/research/PublicationAssistance'
-import ResearchInitiatives from '@/components/sections/research/ResearchInitiatives'
+import FounderPublications from '@/components/sections/FounderPublications'
+import PublicationFundedByCRF from '@/components/sections/research/PublicationFundedByCRF'
 import ResearchCTA from '@/components/sections/research/ResearchCTA'
+import ResearchInitiatives from '@/components/sections/research/ResearchInitiatives'
 
 export const metadata = {
   title: 'Research & Publication | Convergence Research Foundation',
@@ -14,10 +14,10 @@ export default function ResearchPage() {
   return (
     <main className="pt-20">
       <ResearchHero />
-      <ResearchAssistance />
-      <PublicationAssistance />
-      <ResearchInitiatives />
+      <FounderPublications />
+      <PublicationFundedByCRF />
       <ResearchCTA />
+      <ResearchInitiatives />
     </main>
   )
 }

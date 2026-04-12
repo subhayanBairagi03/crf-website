@@ -1,7 +1,7 @@
 export default function VisionMission() {
   return (
-    <section className="bg-[#FAFAF7] py-20 md:py-[80px] px-6 md:px-12">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 md:gap-24 items-start relative">
+    <section className="bg-[#FAFAF7] py-20 md:py-[80px] px-4 sm:px-6 md:px-12">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 md:gap-24 items-start relative">
         {/* Vision */}
         <div className="space-y-6">
           <h2 className="font-serif text-sm tracking-[0.2em] uppercase text-tertiary-fixed-dim font-bold">

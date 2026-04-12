@@ -3,8 +3,6 @@ import PublishWithUs from '@/components/sections/PublishWithUs'
 import FounderMessage from '@/components/sections/FounderMessage'
 import AreasOfWork from '@/components/sections/AreasOfWork'
 import ThematicFocus from '@/components/sections/ThematicFocus'
-import EventsSection from '@/components/sections/EventsSection'
-import KeyInitiatives from '@/components/sections/KeyInitiatives'
 import ContactSection from '@/components/sections/ContactSection'
 
 export default function Home() {
@@ -15,8 +13,6 @@ export default function Home() {
       <FounderMessage />
       <AreasOfWork />
       <ThematicFocus />
-      <EventsSection />
-      <KeyInitiatives />
       <ContactSection />
     </main>
   )

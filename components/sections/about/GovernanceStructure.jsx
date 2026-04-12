@@ -23,10 +23,10 @@ const boards = [
 
 export default function GovernanceStructure() {
   return (
-    <section className="bg-[#FAFAF7] py-20 md:py-[80px] px-6 md:px-12">
+    <section className="bg-[#FAFAF7] py-20 md:py-[80px] px-4 sm:px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl text-primary-container mb-4">Governance Structure</h2>
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-primary-container mb-4">Governance Structure</h2>
           <p className="text-on-surface-variant tracking-widest uppercase text-xs">
             Integrity through collective oversight
           </p>
@@ -36,7 +36,7 @@ export default function GovernanceStructure() {
           {boards.map((board) => (
             <div
               key={board.title}
-              className="bg-[#F5E6C0] p-10 border border-tertiary-fixed-dim transition-all hover:bg-white hover:shadow-xl group"
+              className="bg-[#F5E6C0] p-6 sm:p-10 border border-tertiary-fixed-dim transition-all hover:bg-white hover:shadow-xl group"
             >
               <h3 className="font-serif text-2xl text-primary-container mb-4">{board.title}</h3>
               <p className="text-on-surface-variant leading-relaxed">{board.description}</p>

@@ -41,7 +41,7 @@ export default function ArchivesStatic() {
   return (
     <>
       {/* Coming Soon Banner */}
-      <section className="bg-[#F5E6C0] py-16 sm:py-20 px-6 sm:px-12">
+      <section className="bg-[#F5E6C0] py-16 sm:py-20 px-4 sm:px-6 lg:px-12">
         <div className="max-w-3xl mx-auto text-center space-y-5">
           <span className="material-symbols-outlined text-[#C9960C] text-5xl block">archive</span>
           <h2 className="font-headline text-3xl sm:text-4xl text-[#1B2E6E]">
@@ -65,7 +65,7 @@ export default function ArchivesStatic() {
       </section>
 
       {/* What the archive will contain */}
-      <section className="bg-[#1B2E6E] py-16 sm:py-24 px-6 sm:px-12">
+      <section className="bg-[#1B2E6E] py-16 sm:py-24 px-4 sm:px-6 lg:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
             <span className="font-label text-xs uppercase tracking-[0.3em] font-bold text-[#C9960C] block mb-4">
@@ -94,7 +94,7 @@ export default function ArchivesStatic() {
       </section>
 
       {/* Static info section */}
-      <section className="bg-[#FAFAF7] py-16 sm:py-20 px-6 sm:px-12">
+      <section className="bg-[#FAFAF7] py-16 sm:py-20 px-4 sm:px-6 lg:px-12">
         <div className="max-w-4xl mx-auto space-y-10">
           <div className="border-l-4 border-[#C9960C] pl-6 sm:pl-8 space-y-3">
             <h3 className="font-headline text-2xl text-[#1B2E6E]">About the CRF Archive</h3>

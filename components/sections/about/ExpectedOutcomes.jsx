@@ -34,10 +34,10 @@ const outcomes = [
 
 export default function ExpectedOutcomes() {
   return (
-    <section className="bg-primary-container py-20 md:py-[80px] px-6 md:px-12 text-white">
+    <section className="bg-primary-container py-20 md:py-[80px] px-4 sm:px-6 md:px-12 text-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
-          <h2 className="font-serif text-4xl max-w-md">
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl max-w-md">
             Expected Outcomes &amp; Institutional Impact
           </h2>
           <div className="h-px flex-grow mx-8 bg-white/20 hidden md:block mb-4"></div>

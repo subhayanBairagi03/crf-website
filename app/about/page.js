@@ -1,7 +1,7 @@
 import AboutHero from '@/components/sections/about/AboutHero'
 import OurMission from '@/components/sections/about/OurMission'
 import VisionMission from '@/components/sections/about/VisionMission'
-import CoreObjectives from '@/components/sections/about/CoreObjectives'
+import FounderAbout from '@/components/sections/about/FounderAbout'
 import GovernanceStructure from '@/components/sections/about/GovernanceStructure'
 import ExpectedOutcomes from '@/components/sections/about/ExpectedOutcomes'
 
@@ -17,7 +17,7 @@ export default function AboutPage() {
       <AboutHero />
       <OurMission />
       <VisionMission />
-      <CoreObjectives />
+      <FounderAbout />
       <GovernanceStructure />
       <ExpectedOutcomes />
     </main>

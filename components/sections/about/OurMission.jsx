@@ -1,7 +1,7 @@
 export default function OurMission() {
   return (
-    <section id="our-mission" className="bg-[#1B2E6E] py-20 md:py-[80px] px-6 md:px-12">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 md:gap-24 items-center">
+    <section id="our-mission" className="bg-[#1B2E6E] py-20 md:py-[80px] px-4 sm:px-6 md:px-12">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 md:gap-24 items-center">
 
         {/* Label + Heading */}
         <div className="space-y-6">
