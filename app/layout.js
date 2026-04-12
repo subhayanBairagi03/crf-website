@@ -6,6 +6,21 @@ export const metadata = {
   title: 'Convergence Research Foundation | CRF',
   description:
     'A prestigious institute dedicated to the intersection of rigorous academic inquiry, creative expression, and revolutionary technological advancement.',
+  openGraph: {
+    title: 'Convergence Research Foundation | CRF',
+    description:
+      'A prestigious institute dedicated to the intersection of rigorous academic inquiry, creative expression, and revolutionary technological advancement.',
+    url: 'https://www.convergenceresearchfoundation.com',
+    siteName: 'Convergence Research Foundation',
+    type: 'website',
+    locale: 'en_IN',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Convergence Research Foundation | CRF',
+    description:
+      'A prestigious institute dedicated to the intersection of rigorous academic inquiry, creative expression, and revolutionary technological advancement.',
+  },
 }
 
 export default function RootLayout({ children }) {
