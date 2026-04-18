@@ -45,10 +45,7 @@ export default function Footer() {
             <a href="mailto:convergenceofknowledge17@gmail.com" className="block text-xs text-[#C9960C] hover:text-white transition-colors break-all">
               convergenceofknowledge17@gmail.com
             </a>
-            <a href="mailto:Info@crf.tech" className="block text-xs text-slate-400 hover:text-white transition-colors">
-              Info@crf.tech
-            </a>
-            <a href="tel:+918017957018" className="block text-xs text-slate-400 hover:text-white transition-colors">
+<a href="tel:+918017957018" className="block text-xs text-slate-400 hover:text-white transition-colors">
               +91 80179 57018
             </a>
           </div>

@@ -54,21 +54,7 @@ export default function ContactSection() {
 
           {/* Info & Phone Card */}
           <div className="flex flex-col gap-6">
-            <div className="bg-[#243580] border border-[#C9960C]/20 rounded-sm p-8 space-y-4 flex-1">
-              <div className="flex items-center gap-3 mb-2">
-                <span className="material-symbols-outlined text-[#C9960C] text-2xl">info</span>
-                <h3 className="font-headline text-lg text-white">Information</h3>
-              </div>
-              <p className="text-[#8798df] text-sm">For general information and institutional queries:</p>
-              <a
-                href="mailto:Info@crf.tech"
-                className="block text-[#f6be3c] font-label font-bold text-sm hover:underline break-all"
-              >
-                Info@crf.tech
-              </a>
-            </div>
-
-            <div className="bg-[#243580] border border-[#C9960C]/20 rounded-sm p-8 space-y-4 flex-1">
+<div className="bg-[#243580] border border-[#C9960C]/20 rounded-sm p-8 space-y-4 flex-1">
               <div className="flex items-center gap-3 mb-2">
                 <span className="material-symbols-outlined text-[#C9960C] text-2xl">call</span>
                 <h3 className="font-headline text-lg text-white">Phone</h3>
