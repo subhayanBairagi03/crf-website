@@ -27,6 +27,14 @@ const crfBooks = [
     year: '2025',
     image: '/images/publications/medi-sahitya.jpeg',
   },
+  {
+    id: 4,
+    title: 'Postscripts to a Ghost',
+    subtitle: null,
+    author: 'Suneha Dutta',
+    year: '2026',
+    image: '/images/publications/postscripts-to-a-ghost.jpeg',
+  },
 ]
 
 export default function PublicationFundedByCRF() {

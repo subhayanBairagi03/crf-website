@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function LabelPill({ text }) {
   return (
-    <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-[#C9960C]/50 text-white text-[11px] font-label font-bold uppercase tracking-widest px-4 py-2 rounded-full shadow-lg whitespace-nowrap">
+    <span className="inline-flex items-center gap-2 bg-white/20 border border-[#C9960C]/50 text-white text-[11px] font-label font-bold uppercase tracking-widest px-4 py-2 rounded-full shadow-lg whitespace-nowrap">
       <span className="w-1.5 h-1.5 rounded-full bg-[#C9960C] shrink-0" />
       {text}
     </span>
@@ -60,7 +60,7 @@ export default function HeroSection() {
             {/* Mobile: simple centered logo */}
             <div className="lg:hidden flex flex-col items-center gap-6">
               <div className="hero-logo-glow relative w-36 h-36 sm:w-48 sm:h-48 rounded-full overflow-hidden border-4 border-[#C9960C]">
-                <Image src="/images/crf-logo.jpeg" alt="CRF" fill sizes="192px" className="object-cover" priority />
+                <Image src="/images/crf-logo.jpeg" alt="CRF" fill sizes="192px" className="object-cover" />
               </div>
               {/* Mobile label strip */}
               <div className="flex flex-wrap justify-center gap-2 max-w-xs">

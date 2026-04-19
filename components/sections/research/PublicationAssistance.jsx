@@ -28,15 +28,8 @@ export default function PublicationAssistance() {
           </div>
         </div>
 
-        {/* Heading + IJCS card */}
+        {/* IJCS card */}
         <div className="order-1 md:order-2 space-y-12">
-          <div>
-            <h2 className="font-headline text-4xl text-white mb-6 leading-tight">Scholarly Dissemination</h2>
-            <p className="text-on-primary-container text-lg leading-relaxed">
-              Our publication services ensure that high-impact research reaches the global academic community. We manage
-              the delicate transition from raw findings to published intellectual property.
-            </p>
-          </div>
           <div
             className="bg-white p-8 rounded-sm relative overflow-hidden group"
             style={{ boxShadow: '0 20px 50px rgba(26, 28, 27, 0.04)' }}
