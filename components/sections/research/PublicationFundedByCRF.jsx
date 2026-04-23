@@ -51,7 +51,7 @@ export default function PublicationFundedByCRF() {
             CRF Supported Works
           </span>
           <h2 className="font-headline text-3xl sm:text-4xl text-white mt-2">
-            Publications Funded by CRF
+            Books Curated by CRF
           </h2>
           <div className="w-16 h-1 bg-[#C9960C] mt-4" />
         </div>
